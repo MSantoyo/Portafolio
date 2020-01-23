@@ -1,3 +1,10 @@
+/* 
+gris oscuro = #1d252c
+gris claro  = #626262
+background gris = #1b2127
+celeste = #026fff
+ */
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -18,6 +25,11 @@ h1 {
     letter-spacing: -.2px;
     /* text-transform: uppercase;
     text-decoration: underline; */
+    color: white;
+}
+
+h1 strong {
+    color: #026fff;
 }
 
 .project-details {
@@ -30,4 +42,21 @@ h1 {
 
 .hero {
     height: 300px;
+    /* background-color: red; */
+    background-image: url('../images/hero.jpg');
+    background-color: #1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+
+
+.header {
+    background-color: #1b2127;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
