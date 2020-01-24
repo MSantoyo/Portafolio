@@ -73,8 +73,8 @@ h1 strong {
     background-color: #1b2127;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    height: 90px;
+    align-items: center;
+    height: 70px;
 }
 
 ol,
@@ -111,4 +111,20 @@ figure {
     align-items: center;
     height: inherit;
     padding: 0 10px;
+}
+
+.footer {
+    background-color: #1b2127;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
 }
