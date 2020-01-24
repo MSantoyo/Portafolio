@@ -68,9 +68,44 @@ h1 strong {
 
 .header {
     background-color: #1b2127;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 90px;
+}
+
+ol,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
 }
 
 .header a {
     color: white;
     text-decoration: none;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
 }
