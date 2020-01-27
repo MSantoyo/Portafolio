@@ -285,6 +285,8 @@ figure {
    justify-content: inherit;
    margin: 0 auto;
    max-width: 1000px;
+   /* width: 100%; */
+   flex: 1;
    height: inherit;
    align-items: inherit;
    flex-wrap: inherit;
@@ -295,7 +297,27 @@ figure {
 }
 
 @media screen and (max-width:767px) {
-    
+    .header {
+        display: block;
+        height: auto;
+    }
+
+    .header ol {
+        display: block;
+    }
+
+    .header ol li {
+        height: 50px;
+        text-align: center;
+    }
+
+    .header a {
+        justify-content: center;
+    }
+
+    .header .logo {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:480px) {
