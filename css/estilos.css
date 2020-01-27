@@ -225,9 +225,9 @@ figure {
     flex-wrap: wrap;
 }
 
-.social {
-    /* border: 1px solid red; */
-}
+/* .social {
+    border: 1px solid red;
+} */
 
 .social-link {
     display: inline-block;
