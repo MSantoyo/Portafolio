@@ -302,6 +302,25 @@ figure {
     height: auto;
 }
 
+.flexible-video {
+    background-color: #026fff;
+    width: 100%;
+    height: 0;
+    padding-top: 50.46%;
+    position: relative;
+}
+
+.youtube-video {
+    width: 100%;
+    /* max-width: 100%; */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
 @media screen and (max-width:1024px) {
 
     .hero {
