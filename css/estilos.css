@@ -297,6 +297,11 @@ figure {
    padding: 0 1em;
 }
 
+.html-video {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width:1024px) {
 
     .hero {
