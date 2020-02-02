@@ -287,7 +287,13 @@ figure {
     margin: 0 10px;
 }
 
-  .icon-facebook {
+.social-link {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+  /* .icon-facebook {
     font-size: 50px;
     color: white;
     text-decoration: none;
@@ -306,7 +312,7 @@ figure {
     font-size: 50px;
     color: white;
     text-decoration: none;
-  }
+  } */
 
 /* .social-link.twitter {
    background-image: url("../images/twitter.svg");
