@@ -5,6 +5,51 @@ background gris = #1b2127
 celeste = #026fff
  */
 
+ @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?f9h63e');
+    src:  url('../fonts/icomoon.eot?f9h63e#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?f9h63e') format('truetype'),
+      url('../fonts/icomoon.woff?f9h63e') format('woff'),
+      url('../fonts/icomoon.svg?f9h63e#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e900";
+  }
+  .icon-facebook:before {
+    content: "\ea91";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-github:before {
+    content: "\eab0";
+  }
+  
+  
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
@@ -233,20 +278,41 @@ figure {
     border: 1px solid red;
 } */
 
-.social-link {
-    display: inline-block;
+.social a {
+    /* display: inline-block;
     width: 50px;
     height: 50px;
-    /* border: 1px solid white; */
-    background-size: 50px 50px;
+    border: 1px solid white;
+    background-size: 50px 50px; */
     margin: 0 10px;
 }
 
-.social-link.twitter {
-   background-image: url("../images/twitter.svg");
-}
+  .icon-facebook {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+  }
+  .icon-instagram {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+  }
+  .icon-twitter {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+  }
+  .icon-github {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+  }
 
-.social-link.facebook {
+/* .social-link.twitter {
+   background-image: url("../images/twitter.svg");
+} */
+
+/* .social-link.facebook {
     background-image: url("../images/facebook.svg");
 }
 
@@ -256,7 +322,7 @@ figure {
 
 .social-link.instagram {
     background-image: url(../images/instagram.svg);
-}
+} */
 
 .form-email input {
     border-color: gray;
@@ -465,6 +531,10 @@ figure {
 
     .hero {
         padding: 2em 1em;
+    }
+
+    .social a {
+        font-size: 3em;
     }
 
 }
