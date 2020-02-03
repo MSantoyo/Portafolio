@@ -393,6 +393,21 @@ figure {
     bottom: 0;
 }
 
+.burger-button {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgba(0, 0, 0, .8);
+    text-align: center;
+    line-height: 40px;
+    position: fixed;
+    z-index: 3;
+    color: white;
+    top: 5px;
+    left: 5px;
+}
+
 @media screen and (max-width:1024px) {
 
     .hero {
@@ -420,6 +435,10 @@ figure {
 }
 
 @media screen and (max-width:767px) {
+
+    .burger-button {
+        display: block;
+    }
 
     .header {
         display: block;
