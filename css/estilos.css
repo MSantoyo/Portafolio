@@ -408,7 +408,7 @@ figure {
     left: 5px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
 
     .hero {
         height: auto;
@@ -435,6 +435,16 @@ figure {
 }
 
 @media screen and (max-width:767px) {
+
+    .portfolio {
+        padding-top: .4em;
+        padding-bottom: 0;
+    }
+
+    h2 {
+        font-size: 1em;
+        margin: 1em 0;
+    }
 
     .burger-button {
         display: block;
@@ -521,7 +531,7 @@ figure {
     }
 
     .project-description {
-        font-size: .8em;
+        font-size: 1em;
     }
 
     .event {
@@ -541,7 +551,7 @@ figure {
     }
 
     .project-details {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .event-detail {

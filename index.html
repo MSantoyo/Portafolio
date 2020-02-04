@@ -184,6 +184,10 @@
 
         ipad.addListener(validation);
 
+        if(ipad.matches) {
+      burgerButton.addEventListener('click', hideShow);
+    }
+
         function validation(event) {
             if (event.matches) {
                 burgerButton.addEventListener('click', hideShow);
